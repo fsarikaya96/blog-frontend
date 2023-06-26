@@ -10,7 +10,7 @@ export default function Posts(){
                             <strong>Routing</strong>
                         </Link>
                     </p>
-                    <div class="font-normal text-dark text-sm"><em>1 year ago</em></div>
+                    <div class="font-normal text-dark text-sm"><em>1 yıl önce</em></div>
                 </div>
                 <div class="mb-12">
                     <p class="mb-2 leading-tight font-display">
@@ -18,7 +18,7 @@ export default function Posts(){
                             <strong>Middleware</strong>
                         </Link>
                     </p>
-                    <div class="font-normal text-dark text-sm"><em>1 year ago</em></div>
+                    <div class="font-normal text-dark text-sm"><em>5 ay önce</em></div>
                 </div>
                 <div class="mb-12">
                     <p class="mb-2 leading-tight font-display">
@@ -26,7 +26,7 @@ export default function Posts(){
                             <strong>Validation</strong>
                         </Link>
                     </p>
-                    <div class="font-normal text-dark text-sm"><em>1 year ago</em></div>
+                    <div class="font-normal text-dark text-sm"><em>7 önce</em></div>
                 </div>
                 <div class="mb-12">
                     <p class="mb-2 leading-tight font-display">
@@ -34,7 +34,7 @@ export default function Posts(){
                             <strong>Query Builder vs Eloquent ORM</strong>
                         </Link>
                     </p>
-                    <div class="font-normal text-dark text-sm"><em>1 year ago</em></div>
+                    <div class="font-normal text-dark text-sm"><em>10 ay önce</em></div>
                 </div>
                 <div class="mb-12">
                     <p class="mb-2 leading-tight font-display">
@@ -42,7 +42,7 @@ export default function Posts(){
                             <strong>Collections</strong>
                         </Link>
                     </p>
-                    <div class="font-normal text-dark text-sm"><em>1 year ago</em></div>
+                    <div class="font-normal text-dark text-sm"><em>1 yıl önce</em></div>
                 </div>
             </section>
     )
