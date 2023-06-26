@@ -1,23 +1,23 @@
-import logo from './logo.svg';
 import './App.css';
+import Header from './compenents/layout/Header';
+import Footer from './compenents/layout/Footer';
+import Code from './compenents/section-code/Code';
+import Posts from './compenents/section-posts/Posts';
 
 function App() {
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+       <Header/>
+       <main className='container mx-auto px-2 sm:px-4 pt-12'>
+        <div className='flex flex-col lg:flex-row justify-between gap-x-8 mb-20'>
+        <Code/>
+        <Posts/>
+        </div>
+      </main>
+       <hr class="container mx-auto mb-4 border-b border-dark"></hr>
+       <Footer/>
+  
     </div>
   );
 }
