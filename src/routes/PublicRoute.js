@@ -4,6 +4,7 @@ import Home from "../pages/Public/Home/Index";
 import Project from "../pages/Public/Project/Index";
 import Blog from "../pages/Public/Blog/Index";
 import Post from "../pages/Public/Post/Index";
+import Page404 from "../pages/Public/404";
 
 
 export default function PublicRoute() {
@@ -13,6 +14,7 @@ export default function PublicRoute() {
       <Route path="/projects" element={<Project />} />
       <Route path="/blog" element={<Blog />} />
       <Route path="/posts" element={<Post />} />
+      <Route path="*" element={<Page404 />} />
     </Routes>
   );
 }
