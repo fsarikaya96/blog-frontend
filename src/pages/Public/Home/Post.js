@@ -44,6 +44,8 @@ export default function Posts(){
                     </p>
                     <div class="font-normal text-dark text-sm"><em>1 yıl önce</em></div>
                 </div>
+                   <Link to="/posts" className="underline">Devamını Gör</Link>
+
             </section>
     )
 }

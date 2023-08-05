@@ -11,13 +11,13 @@ export default function Header (){
 
         <ul className="flex gap-x-2 md:gap-x-10">
           <li>
-            <Link className="block pr-2 text-base sm:text-lg text-orange font-semibold uppercase hover:underline" to="/">
+            <Link className="block pr-2 text-base sm:text-lg text-orange font-semibold uppercase hover:underline" to="/projects">
               $Projeler
             </Link>
           </li>
 
           <li>
-            <Link className="block px-2 text-base sm:text-lg text-orange font-semibold uppercase hover:underline" to="/">
+            <Link className="block px-2 text-base sm:text-lg text-orange font-semibold uppercase hover:underline" to="/blog">
               $Blog
             </Link>
           </li>

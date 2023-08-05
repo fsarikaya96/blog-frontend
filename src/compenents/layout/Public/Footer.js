@@ -11,8 +11,8 @@ export default function Footer(){
             <div class="flex justify-center container mx-auto mb-12 font-display">
                 <div class="flex flex-col pr-12 md:pr-32">
                     <p class="mb-4 uppercase text-purple"><strong>Kaynaklar</strong></p>
-                    <Link class="mb-6 text-sm hover:underline" to="/">Projeler</Link>
-                    <Link class="mb-6 text-sm hover:underline" to="/">Blog</Link>
+                    <Link class="mb-6 text-sm hover:underline" to="/projects">Projeler</Link>
+                    <Link class="mb-6 text-sm hover:underline" to="/blog">Blog</Link>
                 </div>
 
                 <div class="flex flex-col pr-12 md:pr-32">
