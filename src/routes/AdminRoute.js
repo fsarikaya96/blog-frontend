@@ -7,9 +7,8 @@ export default function AdminRoute() {
 
   return (
     <Routes>
-      <Route path="/login" element={<Login />} />
-      <Route path="/posts" element={<Post />} />
-     
+      <Route path="admin/login" element={<Login />} />
+      <Route path="admin/posts" element={<Post />} />    
     </Routes>
   );
 }
